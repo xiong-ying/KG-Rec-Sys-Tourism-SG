@@ -1,0 +1,6 @@
+python>=3.0
+selenium
+beautifulsoup4
+requests
+pandas
+fake-useragent

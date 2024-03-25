@@ -1,0 +1,7 @@
+python>=3.0
+neo4j
+pandas
+scikit-learn
+matplotlib
+py2neo
+graphdatascience

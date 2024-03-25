@@ -1,0 +1,23 @@
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore archived files
+_Archive/
+
+# Ignore HTML files
+html/
+
+# Ignore output files
+output/
+
+# Ignore geckodriver log file
+geckodriver.log
+
+# Ignore neo4j_import directory
+neo4j_import/
+
+# Ignore raw_data directory
+raw_data/
+
+# Ignore neo4j.ini file
+neo4j.ini

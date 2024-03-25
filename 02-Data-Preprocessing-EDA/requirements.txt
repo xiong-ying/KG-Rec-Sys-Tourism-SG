@@ -1,0 +1,4 @@
+python>=3.0
+pandas
+neo4j
+matplotlib
