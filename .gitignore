@@ -7,6 +7,9 @@ _Archive/
 # Ignore HTML files
 html/
 
+# Ignore url fail files
+poi_urls_failed.txt
+
 # Ignore geckodriver log file
 geckodriver.log
 
