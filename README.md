@@ -4,10 +4,17 @@ This repository contains the code and documentation for the development of a tou
 
 ## Introduction
 
-**01-TripAdvisor-Scraper**: This module contains the code for scraping tourist information from TripAdvisor.
-**02-Data-Preprocessing-EDA**: The data preprocessing and exploratory data analysis (EDA) are performed.
-**03-Recommender-Engine-Experiments**: This module involves experimenting with various recommendation algorithms.
-**04-Recommender-System-Web-App**: Finally, the web application for the recommender system is developed.
+### 01-TripAdvisor-Scraper 
+This module contains the code for scraping tourist information from TripAdvisor.
+
+### 02-Data-Preprocessing-EDA
+The data preprocessing and exploratory data analysis (EDA) are performed.
+
+### 03-Recommender-Engine-Experiments
+This module involves experimenting with various recommendation algorithms.
+
+### 04-Recommender-System-Web-App
+Finally, the web application for the recommender system is developed.
 
 ## Usage
 
