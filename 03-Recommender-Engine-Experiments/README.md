@@ -30,7 +30,7 @@ This notebook explores ensemble techniques, specifically the Majority Voting met
 
 Follow these steps:
 
-1. Ensure that Python and the required dependencies are installed.
+1. Ensure the required dependencies are installed.
 2. Save the credentials required to connect to the Neo4j database in a file named `neo4j.ini` and place in the root directory of this module. 
 Sample `neo4j.ini` File:
 ```
@@ -43,13 +43,13 @@ PASSWORD = [PASSWORD]
 
 ## Dependencies
 
-- Python 3.x
-- neo4j
-- pandas
-- scikit-learn
-- matplotlib
-- py2neo
-- graphdatascience
+- `Python 3.x`
+- `neo4j`
+- `pandas`
+- `scikit-learn`
+- `matplotlib`
+- `py2neo`
+- `graphdatascience`
 
 ## Contributors
 

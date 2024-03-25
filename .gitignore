@@ -15,3 +15,6 @@ geckodriver.log
 
 # Ignore neo4j.ini file
 neo4j.ini
+
+# Ignore TODO file
+TODO.md

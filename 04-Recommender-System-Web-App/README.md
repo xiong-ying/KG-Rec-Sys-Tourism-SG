@@ -27,7 +27,7 @@ This script contains functions to handle Neo4j database connections and queries,
 
 To set up the web application locally, follow these steps:
 
-1. Ensure that Python and the required dependencies are installed.
+1. Ensure the required dependencies are installed.
 2. Save the credentials required to connect to the Neo4j database in a file named `neo4j.ini` and place in the root directory of this module. 
 Sample `neo4j.ini` File:
 ```
@@ -41,13 +41,13 @@ PASSWORD = [PASSWORD]
 
 ## Dependencies
 
-- Python 3.x
-- Flask
-- neo4j
-- graphdatascience
-- pandas
-- scikit-learn
-- py2neo
+- `Python 3.x`
+- `Flask`
+- `neo4j`
+- `graphdatascience`
+- `pandas`
+- `scikit-learn`
+- `py2neo`
 
 ## Contributors
 
