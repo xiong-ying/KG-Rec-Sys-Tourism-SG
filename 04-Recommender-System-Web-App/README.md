@@ -28,12 +28,14 @@ This script contains functions to handle Neo4j database connections and queries,
 To set up the web application locally, follow these steps:
 
 1. Ensure that Python and the required dependencies are installed.
-2. Save the credentials required to connect to the Neo4j database in a file named neo4j.ini and place in the root directory of this module. 
-Sample neo4j.ini File:
-`[NEO4J]
+2. Save the credentials required to connect to the Neo4j database in a file named `neo4j.ini` and place in the root directory of this module. 
+Sample `neo4j.ini` File:
+```
+[NEO4J]
 HOST = bolt://[IP]:[PORT]
 DATABASE = neo4j
-PASSWORD = [PASSWORD]`
+PASSWORD = [PASSWORD]
+```
 3. Run the `app.py`
 4. Upon initializing the web application and verifying that the Neo4j database is empty, it may require approximately 5 to 10 minutes to load the data into the Neo4j database before launching the web application.
 

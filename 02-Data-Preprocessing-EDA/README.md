@@ -25,13 +25,15 @@ This notebook contains exploratory queries written in Cypher, the query language
 Follow these steps:
 
 1. Ensure that Python and the required dependencies are installed.
-2. Save the credentials required to connect to the Neo4j database in a file named neo4j.ini and place in the root directory of this module. 
-Sample neo4j.ini File:
-`[NEO4J]
+2. Save the credentials required to connect to the Neo4j database in a file named `neo4j.ini` and place in the root directory of this module. 
+Sample `neo4j.ini` File:
+```
+[NEO4J]
 HOST = bolt://[IP]:[PORT]
 DATABASE = neo4j
-PASSWORD = [PASSWORD]`
-2. Run the desired notebook.
+PASSWORD = [PASSWORD]
+```
+3. Run the desired notebook.
 
 ## Dependencies
 
