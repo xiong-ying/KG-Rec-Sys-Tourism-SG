@@ -9,17 +9,27 @@ from neo4j_tools import get_credential
 # define constants
 
 # import .csv files are hostsed on Github for easier access
-url_node_category = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_node_category.csv'
-url_node_origin = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_node_origin.csv'
-url_node_poi = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_node_poi.csv'
-url_node_region = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_node_region.csv'
-url_node_review_1 = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_node_review_1.csv'
-url_node_review_2 = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_node_review_2.csv'
-url_node_user = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_node_user.csv'
-url_poi_belongsto_category = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_poi_belongsto_category.csv'
-url_poi_locatedat_region = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_poi_locatedat_region.csv'
-url_user_from_origin = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_user_from_origin.csv'
-url_user_reviewed_poi = 'https://raw.githubusercontent.com/xiong-ying/neo4j-import/main/df_user_reviewed_poi.csv'
+url_node_category = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_node_category.csv'
+
+url_node_origin = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_node_origin.csv'
+
+url_node_poi = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_node_poi.csv'
+
+url_node_region = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_node_region.csv'
+
+url_node_review_1 = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_node_review_1.csv'
+
+url_node_review_2 = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_node_review_2.csv'
+
+url_node_user = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_node_user.csv'
+
+url_poi_belongsto_category = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_poi_belongsto_category.csv'
+
+url_poi_locatedat_region = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_poi_locatedat_region.csv'
+
+url_user_from_origin = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_user_from_origin.csv'
+
+url_user_reviewed_poi = 'https://raw.githubusercontent.com/xiong-ying/KG-Rec-Sys-Tourism-SG/main/02-Data-Preprocessing-EDA/neo4j_import/df_user_reviewed_poi.csv'
 
 
 # define functions

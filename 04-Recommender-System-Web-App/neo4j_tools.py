@@ -13,6 +13,12 @@ def get_credential():
     PASSWORD = 'password'
 
     NEO4J_CONF_FILE = 'neo4j.ini'
+    '''
+    if os.path.exists(NEO4J_CONF_FILE):
+        print("True")
+    else:
+        print("False")
+    '''
 
     if NEO4J_CONF_FILE is not None and os.path.exists(NEO4J_CONF_FILE):
         config = configparser.RawConfigParser()
@@ -37,3 +43,15 @@ def run(driver, query, params=None):
             return [r for r in session.run(query, params)]
         else:
             return [r for r in session.run(query)]
+
+# entry point
+if __name__ == '__main__':
+
+    # neo4j connections
+
+    # Get credentials to connect neo4j
+    HOST, DATABASE, PASSWORD = get_credential()
+
+    print(HOST)
+    print(DATABASE)
+    print(PASSWORD)
