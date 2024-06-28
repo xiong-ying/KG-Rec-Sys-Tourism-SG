@@ -2,6 +2,8 @@
 
 This repository contains the code and documentation for the development of a tourism recommender system for Singapore. The project is divided into several modules, each focusing on a specific aspect, including data scraping, preprocessing, recommender engine experiments, and web application development.
 
+More details could be found in the project report "[FYP Report-Xiong Ying.pdf](https://github.com/xiong-ying/KG-Rec-Sys-Tourism-SG/blob/main/FYP%20Report-Xiong%20Ying.pdf)".
+
 ## Introduction
 
 ### 01-TripAdvisor-Scraper 
